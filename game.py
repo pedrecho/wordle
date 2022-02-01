@@ -45,7 +45,7 @@ while True:
         s = random.choice(dict1)
         print(s)
         write_word(s)
-        time.sleep(2)
+        time.sleep(1)
         # soup = BeautifulSoup(driver.page_source, features='html.parser')
         # table = soup.findAll('div', class_='react-card-flip')
         # grip = table[0].div.div.div['class']
